@@ -1,1 +1,3 @@
 # Neural-Region-Descriptor-Fields
+
+NOTE: This work is in IROS conference submission, subject to the review and decision process - Code and pretrained models will be uploaded ...
