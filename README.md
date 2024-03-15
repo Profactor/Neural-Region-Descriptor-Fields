@@ -1,3 +1,5 @@
 # Neural-Region-Descriptor-Fields
 
-NOTE: This work is in IROS conference submission, subject to the review and decision process - Code and pretrained models will be uploaded ...
+Paper Title: NRDF - Neural Region Descriptor Fields as Implicit ROI Representation for Robotic 3D Surface Processing
+
+NOTE: This work is in IROS 2024 conference submission, code and pretrained models will be uploaded after acceptance.
