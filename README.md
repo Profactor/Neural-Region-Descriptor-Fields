@@ -73,3 +73,4 @@ replace `<category_name>` with the actual category name.
 
 # Acknowledgements
 We build on the setup found in [Neural Descriptor Fields](https://github.com/anthonysimeonov/ndf_robot). We also utilize the following repos [occupancy networks](https://github.com/autonomousvision/occupancy_networks), [MSN Point Cloud Completion](https://github.com/Colin97/MSN-Point-Cloud-Completion.git), and the [Implicit Dense Correspondence](https://github.com/liufeng2915/Implicit_Dense_Correspondence). Thanks to these great contributions!
+
