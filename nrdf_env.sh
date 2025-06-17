@@ -1,0 +1,2 @@
+export NRDF_SOURCE_DIR=$PWD/nrdf
+export NRDF_ROOT_DIR=$PWD
