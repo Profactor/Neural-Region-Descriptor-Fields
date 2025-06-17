@@ -1,6 +1,6 @@
 # Neural-Region-Descriptor-Fields
 
-Official Pytorch implementation of the IROS 2023 conference paper: NRDF - Neural Region Descriptor Fields as Implicit ROI Representation for Robotic 3D Surface Processing.
+Official Pytorch implementation of the IROS 2024 conference paper: NRDF - Neural Region Descriptor Fields as Implicit ROI Representation for Robotic 3D Surface Processing.
 
 Paper: [NRDF](https://ieeexplore.ieee.org/document/10802862)
 
@@ -57,7 +57,7 @@ source nrdf_env.sh # source environment variables
 python scripts/run_train_nrdf_subprocess.py 
 
 ```
-replace `<category_name>` with the actual category name.
+replace `<category_name>` in `scripts/run_train_nrdf_subprocess.py` with the actual category name.
 
 
 # Citing
