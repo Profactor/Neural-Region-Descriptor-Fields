@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "nrdf"
+version = "0.1.0"
+description = "neural region descriptor fields"
+authors = ["Pratheepkumar Anish <anish.pratheepkumar@profactor.at>"]
+packages = [{include = "src"}]
+
+
+[tool.poetry.dependencies]
+python = "~3.10"
+cffi = "== 1.15.1"
+future = "*"
+pycparser = "==2.21"
+pymunk = "==5.5.0"
+numpy = "==1.26.0"
+tensorboard = ">=2.0"
+pillow = "*"
+matplotlib = "*"
+opencv-python = "*"
+PyYAML = "*"
+transforms3d = "*"
+jupyterlab = "*"
+pandas = "*"
+psutil = "*"
+configargparse = "*"
+open3d = "==0.16.0"
+ipython =  "*"
+tqdm = "*"
+jedi = "==0.18.2"  # to fix ipython bug
+trimesh = ">=3.9"
+pyglet = "<2"
+rtree = ">=0.9.7"  # needed for trimesh contains method
+networkx = ">=2.3"
+iopath = "==0.1.10"
+fvcore = "==0.1.5.post20221221"
+# pytorch3d = { url = "https://dl.fbaipublicfiles.com/pytorch3d/packaging/wheels/py310_cu117_pyt1131/download.html"}# "version - 0.7.3"; for installation refer README.md
+# torch = { version = "1.13.1", source = "TORCHCUDA" } # torch installation info in README.md
+# torchvision = { version = "0.14.1", source = "TORCHCUDA" } # torchvision installation info in README.md
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
