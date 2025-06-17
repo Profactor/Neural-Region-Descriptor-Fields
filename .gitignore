@@ -1,0 +1,6 @@
+__pycache__
+.history
+.vscode
+poetry.lock
+.venv
+model_weights
