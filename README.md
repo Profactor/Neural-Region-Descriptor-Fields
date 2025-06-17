@@ -21,6 +21,7 @@ cd Neural-Region-Descriptor-Fields
 Poetry Info [Link](https://python-poetry.org/docs/)
 ```
 poetry install
+poetry shell # activate the virtual environment
 ```
 
 ### Install additional dependencies
@@ -53,7 +54,7 @@ Generate Occupancy ground truths for the selected objects and place them in the 
 Then to train run:
 ```
 source nrdf_env.sh # source environment variables
-python3 scripts/run_train_nrdf_subprocess.py 
+python scripts/run_train_nrdf_subprocess.py 
 
 ```
 replace `<category_name>` with the actual category name.
@@ -72,5 +73,5 @@ replace `<category_name>` with the actual category name.
 ```
 
 # Acknowledgements
-We build on the setup found in [Neural Descriptor Fields](https://github.com/anthonysimeonov/ndf_robot). We also utilize the following repos [occupancy networks](https://github.com/autonomousvision/occupancy_networks), [MSN Point Cloud Completion](https://github.com/Colin97/MSN-Point-Cloud-Completion.git), and the [Implicit Dense Correspondence](https://github.com/liufeng2915/Implicit_Dense_Correspondence). Thanks to these great contributions!
+We build on the setup found in [Neural Descriptor Fields](https://github.com/anthonysimeonov/ndf_robot). We also utilize the following repos [occupancy networks](https://github.com/autonomousvision/occupancy_networks), [MSN Point Cloud Completion](https://github.com/Colin97/MSN-Point-Cloud-Completion.git), and [Implicit Dense Correspondence](https://github.com/liufeng2915/Implicit_Dense_Correspondence). Thanks to these great contributions!
 
